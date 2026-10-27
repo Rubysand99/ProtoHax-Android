@@ -27,7 +27,7 @@ jobs:
         with:
           repository: hax0r31337/ProtoHax
           ref: stable
-          submodules: recursive
+          submodules: false
           path: ProtoHax-core
 
       # Lõi ProtoHax dùng JDK 11, app (AGP 8.0.2) cần JDK 17.
