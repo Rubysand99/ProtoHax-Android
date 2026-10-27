@@ -11,7 +11,7 @@ on:
           - release
         default: debug
   push:
-    branches: [master, main]
+    branches: [stable, master, main]
 
 jobs:
   build:
